@@ -14,7 +14,7 @@ fgets(buff, 100, stdin) // fgets take input 100 char but the buffer capacity onl
 ```
 
 ## Exploitation and Vulnerabilities
-### Variables Overwrites (idk the real name)
+### Variables Arbitrary Write
 This one the most simple one. If you can see there is two variables next each other and one of them is the buffer and the other will compared later.  
 The example of the source code are like this
 ```
